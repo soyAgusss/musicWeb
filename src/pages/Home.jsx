@@ -170,6 +170,13 @@ function Home() {
                     <p className='pt-1 text-center'>Bruno Mars</p>
                   </div>
               </div>
+              <div className='darkerGrayBackground flex justify-between px-10 py-2 pb-4 rounded-b-lg'>
+                  <div className='bg-red-300 text-white justify-center max-w-25'>
+                    <img src="https://tse4.mm.bing.net/th/id/OIP.5MbRF-KZ9jCLuuFBXU28WQHaHa?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3" alt=""
+                    className='text-center rounded-full w-25 shadow'/>
+                    <p className='pt-1 text-center'>Bruno Mars</p>
+                  </div>
+              </div>
               
             </div>
           </div>

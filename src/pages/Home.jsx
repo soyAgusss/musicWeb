@@ -133,23 +133,38 @@ function Home() {
                 Trending New hits
               </p>
             </div>
-            <div className="px-10 pt-6">
-              <h1 className="text-5xl font-bold text-white mb-4">
+            <div className="flex px-10 pt-6">
+              <div>
+                <h1 className="text-5xl font-bold text-white mb-4">
                 Song Title
-              </h1>
-              <div className="flex gap-10 pt-2 pb-5">
-                <div>
+                </h1>
+                <div className="flex gap-10 pt-2 pb-5">
+                  <div>
                   <p className="text-lg font-light text-white">Artist name</p>
-                </div>
-                <div>
+                  </div>
+                  <div>
                   <p className="text-lg font-light text-gray-500">0 Plays</p>
+                  </div>
                 </div>
-              </div>
-              <div className='flex h-9 gap-3'>
+                <div className='flex h-9 gap-3'>
                 <button className='cursor-pointer w-25 bg-gradient-to-r from-cyan-400 to-green-600 text-sm text-black rounded-full '>Listen now</button>
                 <button className='cursor-pointer w-9 outline-1 outline-white rounded-full'><i class="fa-solid fa-heart text-white"></i></button>
+                </div>
               </div>
+
+              <div>
+                <div className='absolute flex bg-red-500'>
+              <img src="https://th.bing.com/th/id/R.161fd0fb1012aa65d7af95227fc33460?rik=i3MIawdr2MHHyQ&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f5%2fThe-Weeknd-PNG-Images.png&ehk=6YQxqHQvTJkRhHt8fgcRoRYpwgkG9aFIWcPkRaut81c%3d&risl=&pid=ImgRaw&r=0" alt=""
+              className='w-60'
+              />
+              </div>
+              </div>
+              
+              
+              
+              
             </div>
+            
 
             {/* Sección de top Artistas */}
             <div className="px-10 pt-3 mt-10 border-gray-200">

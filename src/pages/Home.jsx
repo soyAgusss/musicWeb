@@ -151,7 +151,7 @@ function Home() {
               </div>
             </div>
 
-            {/* Sección de Artistas */}
+            {/* Sección de top Artistas */}
             <div className="px-10 pt-3 mt-10 border-gray-200">
               <div className="darkerGrayBackground px-5 py-3 flex justify-between items-center rounded-t-lg">
                 <p className="text-xl font-normal text-white">
@@ -163,15 +163,46 @@ function Home() {
 
                 
               </div>
+
               <div className='darkerGrayBackground flex justify-between px-10 py-2 pb-4 rounded-b-lg'>
-                  <div className='bg-red-300 text-white justify-center max-w-25'>
-                    <img src="https://tse4.mm.bing.net/th/id/OIP.5MbRF-KZ9jCLuuFBXU28WQHaHa?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3" alt=""
+                  <div className='text-white justify-center max-w-25'>
+                    <button className='absolute w-25 h-25 z-5 cursor-pointer rounded-full'></button>
+
+                    <img src="https://th.bing.com/th/id/R.bc4fc8f1dca86efed2e88c835d48bc24?rik=BMrzxbhss%2bjynw&pid=ImgRaw&r=0" alt=""
                     className='text-center rounded-full w-25 shadow'/>
-                    <p className='pt-1 text-center'>Bruno Mars</p>
+                    <p className='pt-1 text-center'>The Weeknd</p>
                   </div>
-              </div>
-              <div className='darkerGrayBackground flex justify-between px-10 py-2 pb-4 rounded-b-lg'>
-                  <div className='bg-red-300 text-white justify-center max-w-25'>
+                  <div className='text-white justify-center max-w-25'>
+                    <button className='absolute w-25 h-25 z-5 cursor-pointer rounded-full'></button>
+
+                    <img src="https://i.scdn.co/image/ab6761610000e5eb859e4c14fa59296c8649e0e4" alt=""
+                    className='text-center rounded-full w-25 shadow'/>
+                    <p className='pt-1 text-center'>Taylor Swift</p>
+                  </div>
+                  <div className='text-white justify-center max-w-25'>
+                    <button className='absolute w-25 h-25 z-5 cursor-pointer rounded-full'></button>
+
+                    <img src="https://th.bing.com/th/id/OIP.vLYC3s34826ONQ0zrGHjmgHaHa?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt=""
+                    className='text-center rounded-full w-25 shadow'/>
+                    <p className='pt-1 text-center'>Bad Bunny</p>
+                  </div>
+                  <div className='text-white justify-center max-w-25'>
+                    <button className='absolute w-25 h-25 z-5 cursor-pointer rounded-full'></button>
+
+                    <img src="https://i.scdn.co/image/ab6761610000e5eb784daff754ecfe0464ddbeb9" alt=""
+                    className='text-center rounded-full w-25 shadow'/>
+                    <p className='pt-1 text-center'>Ed Sheeran</p>
+                  </div>
+                  <div className='text-white justify-center max-w-25'>
+                    <button className='absolute w-25 h-25 z-5 cursor-pointer rounded-full'></button>
+
+                    <img src="https://i.pinimg.com/originals/a8/72/b8/a872b82dcdeb5a5041a377fe98d46663.png" alt=""
+                    className='text-center rounded-full w-25 shadow'/>
+                    <p className='pt-1 text-center'>Lady Gaga</p>
+                  </div>
+                  <div className='text-white justify-center max-w-25'>
+                    <button className='absolute w-25 h-25 z-5 cursor-pointer rounded-full'></button>
+
                     <img src="https://tse4.mm.bing.net/th/id/OIP.5MbRF-KZ9jCLuuFBXU28WQHaHa?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3" alt=""
                     className='text-center rounded-full w-25 shadow'/>
                     <p className='pt-1 text-center'>Bruno Mars</p>
@@ -179,6 +210,140 @@ function Home() {
               </div>
               
             </div>
+
+            {/* Extra */}
+            <div className='flex gap-0'>
+
+            {/* Sección de géneros musicales */}
+            <div className="px-10 pt-3 mt-5 border-gray-200 w-95">
+              <div className="darkerGrayBackground px-5 py-3 flex justify-between items-center rounded-t-lg">
+                <p className="text-xl font-normal text-white">
+                  Genres
+                </p>
+                <button className="text-gray-300 font-normal cursor-pointer">
+                  See all
+                </button>
+
+                
+              </div>
+              
+              <div className='darkerGrayBackground flex justify-between px-5 py-2 pb-4 rounded-b-lg w-75'>
+                <div className='text-white flex flex-wrap gap-2 w-70'>
+                  <div className='flex gap-2 justify-between w-65'>
+                  <button className='buttonBlue cursor-pointer rounded-lg py-3 px-5.5'>Dance Beat</button>
+                  <button className='buttonYellow cursor-pointer rounded-lg py-3 px-5.5'>Electro Pop</button>                    
+                  </div>
+
+                  <div className='flex gap-2 justify-between w-65'>
+                  <button className='buttonOrange cursor-pointer rounded-lg py-3 px-6.5'>Alternative Indie</button>
+                  <button className='buttonCyan cursor-pointer rounded-lg py-3 px-3'>Hip Hop</button>
+                  </div>
+
+                  <div className='flex gap-2 justify-between w-65'>
+                  <button className='buttonPink cursor-pointer rounded-lg py-1 px-3.5'>Classic Period</button>
+                  <button className='buttonPurple cursor-pointer rounded-lg py-3 px-4.5'>Hip Hop Rap</button>
+                  </div>
+
+
+                </div>
+              </div>
+              
+            </div>
+
+            {/* Sección de top Albums */}
+            <div className="px-1 pt-3 mt-5 border-gray-200 w-140">
+
+              <div className="darkerGrayBackground px-5 py-3 flex justify-between items-center rounded-t-lg">
+                <p className="text-xl font-normal text-white">
+                  Top albums
+                </p>
+                <button className="text-gray-300 font-normal cursor-pointer">
+                  See all
+                </button>
+
+                
+              </div>
+              
+              <div className='darkerGrayBackground flex justify-between px-5 py-2.25 pb-4 rounded-b-lg w-138'>
+                <div className='text-white flex flex-wrap gap-2 w-128'>
+
+                  <div className='flex gap-3 items-center justify-between w-139'>
+                    <p>01</p>
+                    <img src="https://tse2.mm.bing.net/th/id/OIP.CxMGTeiW0CdW1SV-QK2GrgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt=""
+                    className='w-12 rounded-md'/>
+
+                    <div className='w-70'>
+                      <p className='font-medium'>Flower boy</p>
+                      <p className='text-sm text-gray-500'>Tyler, The Creator</p>
+                    </div>
+
+                    <div className='w-15 text-center'>
+                      <p className='text-white'>23:47</p>
+                    </div>
+
+                    <div className='flex grayBackground w-10 h-10 text-center justify-center rounded-full'>
+                      <button className='w-10 h-10 cursor-pointer hover:text-green-300 transition-colors duration-300 ease-in-out z-5'><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    
+                    <div className='flex w-10 h-10 text-center justify-center'>
+                      <button className='w-10 h-10 cursor-pointer z-5'><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                    </div> 
+                  </div>
+                  <div className='flex gap-3 items-center justify-between w-139'>
+                    <p>02</p>
+                    <img src="https://tse2.mm.bing.net/th/id/OIP.CxMGTeiW0CdW1SV-QK2GrgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt=""
+                    className='w-12 rounded-md'/>
+
+                    <div className='w-70'>
+                      <p className='font-medium'>Flower boy</p>
+                      <p className='text-sm text-gray-500'>Tyler, The Creator</p>
+                    </div>
+
+                    <div className='w-15 text-center'>
+                      <p className='text-white'>23:47</p>
+                    </div>
+
+                    <div className='flex grayBackground w-10 h-10 text-center justify-center rounded-full'>
+                      <button className='w-10 h-10 cursor-pointer hover:text-green-300 transition-colors duration-300 ease-in-out z-5'><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    
+                    <div className='flex w-10 h-10 text-center justify-center'>
+                      <button className='w-10 h-10 cursor-pointer z-5'><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                    </div> 
+                  </div>
+                  <div className='flex gap-3 items-center justify-between w-139'>
+                    <p>03</p>
+                    <img src="https://tse2.mm.bing.net/th/id/OIP.CxMGTeiW0CdW1SV-QK2GrgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt=""
+                    className='w-12 rounded-md'/>
+
+                    <div className='w-70'>
+                      <p className='font-medium'>Flower boy</p>
+                      <p className='text-sm text-gray-500'>Tyler, The Creator</p>
+                    </div>
+
+                    <div className='w-15 text-center'>
+                      <p className='text-white'>23:47</p>
+                    </div>
+
+                    <div className='flex grayBackground w-10 h-10 text-center justify-center rounded-full'>
+                      <button className='w-10 h-10 cursor-pointer hover:text-green-300 transition-colors duration-300 ease-in-out z-5'><i class="fa-solid fa-play"></i></button>
+                    </div>
+                    
+                    <div className='flex w-10 h-10 text-center justify-center'>
+                      <button className='w-10 h-10 cursor-pointer z-5'><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                    </div> 
+                  </div>
+
+                </div>
+              </div>
+              
+            </div>
+
+
+            </div>
+
+            
+
           </div>
         </div>
       </div>
